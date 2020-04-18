@@ -10,5 +10,5 @@ class StudentCoursesController < ApplicationController
       flash[:notice] = "Something was wrong with your enrollment"
       redirect_to root_path
   end
-end 
+end
 end
